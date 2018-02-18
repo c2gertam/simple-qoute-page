@@ -31,3 +31,20 @@ body {
   font-size: 1.5rem;
   font-style: italic;
 }
+
+@media screen and (max-width: 400px) {
+    .quote {
+        font-size: 14px;
+    }
+
+    .author {
+        font-size: 10px;
+    }
+
+    .wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20%;
+    }
+}
